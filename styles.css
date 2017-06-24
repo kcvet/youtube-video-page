@@ -1,0 +1,96 @@
+
+#header{
+		position:fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 10;
+	
+	
+}
+
+
+#logo{
+		display:inline-block;
+		
+		height:30px;
+		width: 100px;
+		padding: 0px;
+		margin-left: 10px;
+		height: auto;
+		padding-bottom: 8px;
+		padding-top: 7px;
+}
+#youtube_logo {
+		width: 90px;
+		float: left;
+		position: relative;
+		z-index: 9;
+}
+#sidebar {
+		
+		float: right;
+		height: 100%;
+		width: 400px;
+		background-color: blue;
+		margin-top: 72px;
+		margin-right: 50px;
+}
+#youtube_player {
+		margin-left: 50px;	
+}
+
+#video_name {
+	    position: relative;
+		height: 150px;
+		width: 854px; 
+		margin-left: 50px;
+		background-color:red;
+}
+
+.thumbnails {
+		position:relative;
+		height: 130px;
+		width: 360px;
+		margin-bottom: 5px;
+		margin-top: 5px;
+		margin-left:20px;
+		background-color:yellow;
+}
+
+#main_content {
+		position: absolute;
+		width: 800px;
+		height: 100%;
+		
+		margin-top: 72px;
+		margin-left: 50px;
+}
+.search_bar {
+		display:inline-block;
+		border:medium none;
+		padding: 0px;
+		margin-top: 12px;
+		margin-left:240px;
+		width: 540px;
+		height: 30px;
+		font-size:16px;
+		vertical-align: top;
+}
+#search_submit {
+		width: 60px;
+		margin-left: 0px;
+		
+		
+	
+}
+.container {
+		background: #931a1a;
+		border-bottom: 1px solid #e8e8e8;
+		min-width: 0;
+		position: relative;
+		padding-bottom: 8px;
+		padding-top: 7px;
+		width: 100%;
+		
+		}
