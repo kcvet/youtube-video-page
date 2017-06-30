@@ -59,7 +59,7 @@ body {
 		position:relative;
 		}
 
-#pokazi_vec {
+.pokazi_vec {
 	border-top: 3px #e2e2e2;
 	border-left: 0px;
 	border-right: 0px;
@@ -72,7 +72,21 @@ body {
 	margin-right: auto;
 }
 
-#thumbnail {
+#pokazi_vec_sidebar {
+		border-top: 1px #e2e2e2;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom: 0px;
+		border-style: solid;
+		width: 90%;
+		color: #958888;
+		margin-top: 5px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.thumbnail {
+	
 		position: relative;
 		height: 100%;
 		width: 100%;
@@ -106,6 +120,7 @@ body {
 		font-size: 16px;
 		font-family: arial;
 		vertical-align:top;
+		color:black;
 		}
 
 .thumb_user_name {
@@ -167,6 +182,11 @@ body {
 	margin-top: 5px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#naslednji {
+		margin-left:20px;
+	
 }
 
 #main_content {
@@ -236,3 +256,92 @@ h1 {
 		margin-left: 15px;
 	
 }
+#komentarji {
+		position: relative;
+		margin-top: 10px;
+		height: 100px;
+		width: 854px;
+		margin-left: 50px;
+		background-color: white;
+		margin-bottom: 5px;
+}
+
+.komentar {
+		height: 100px;
+		width: 100%;
+		background-color: white;
+		
+}
+
+
+.komentar_user {
+		position:relative;
+		vertical-align:top;
+		color: blue;
+		font-size:20px;
+	
+}
+
+.days_ago {
+		
+		margin-top: 5px;
+		color: black;
+		font-size:15px;
+		
+	
+	
+}
+.komentar_koment {
+		display:block;
+		vertical-align:top;
+		height: 52px;
+		width: 100%;
+		
+	
+}
+
+.odgovori {
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 16px;
+		color: #555;;
+	
+}
+
+.thumbs img{
+		height: 16px;
+		width: 16px;
+		margin-left:2px;
+		margin-right:2px;
+}
+
+.thumbs-count {
+		color: #198EE9;
+		font-size: 16px;
+	
+}
+
+.komentar_footer {
+		vertical-align:bottom;
+		position:relative;
+		
+	
+	
+}
+
+.komentar-body {
+		margin-top:10px;
+		height:100px;
+		width: 754px;
+		display:inline-block;
+		
+		margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
